@@ -3,7 +3,7 @@
 ## Getting started
 
 ```shell
-laravel new --using=danherbert-io/elide-starter-kit
+laravel new --using=danherbert-io/elide-simple-starter-kit
 ```
 
 ## Quick rundown
