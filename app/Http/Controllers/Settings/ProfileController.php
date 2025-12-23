@@ -80,6 +80,6 @@ class ProfileController extends Controller
 
         $session->flash('toast-success', 'Profile deleted');
 
-        return (new HtmxResponse())->redirect(route('welcome'));
+        return (new HtmxResponse)->redirect(route('welcome'));
     }
 }
